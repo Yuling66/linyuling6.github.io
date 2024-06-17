@@ -1,0 +1,123 @@
+@media screen and (max-width: 727px){
+
+
+    img { width: 100%;}
+    
+    
+    header {
+        width: 100%; 
+        margin: 10px auto;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;}
+        
+    
+    header h1 {
+        text-indent: -999px;}
+       
+    header h1 a {
+        display: block;
+        width: 180px; height: 45px;
+        background-image: url(image/logo.svg);}
+    
+    button {
+        border: 0;
+        background-color: transparent;
+        position: fixed;
+        right: 10px;top: 10px;
+        margin-top: 10px;
+        cursor: pointer;}
+    
+
+    header ul {
+        margin: 0; padding: 0;
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        gap: 15px;
+        padding-top: 30px;}
+
+    .hide {display: none;}
+    
+    
+    header ul a {
+        color: var(--main-color);
+        background-color: var(--light-color);
+        text-decoration: none;
+        text-align: center;
+        line-height: 45px;
+        display: block;}
+        
+    header ul a:hover {
+        color: var(--white-color);
+        background-color: var(--secondary-color);}
+
+    main {
+        width: 100%; 
+        height: 500px;
+        background-image: url(image/2960x.jpg);
+        border-radius: 10px;
+        padding-top: 100px;
+        padding-left: 40px;
+        background-position-x: -140px;
+        display: flow-root;}
+    
+
+    main h1 {
+        font-size: 80px;
+        line-height: 80px;
+        width: 400px;}
+
+        
+    main p {
+        color:rgb(79, 89, 146);
+        font-size: 15px;
+        line-height: 250px;
+        padding-left: 3px;}
+    
+    section {
+        width: 100%; 
+        margin: 10px auto;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .card {
+        width: 100%; 
+        overflow: hidden;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(213, 190, 46, 0.2);}
+    
+    
+    .card__image {
+        width: 100%;
+        object-fit: contain;}
+    
+    div.card__info {padding: 13px;}
+    
+    div.card__info h3 {
+        color: var(--main-color);
+        font-family: var(--main-font);
+        font-size: 30px;
+        margin-bottom: 15px;
+        text-align: center;}
+    
+    div.card__info p {
+        color: var(--third-color);
+        font-family: var(--secondary-font);
+        font-size: 16px;
+        line-height: 25px;}
+    
+    footer {
+        color: var(--secondary-color);
+        font-family: var(--main-font);
+        text-align: center;
+        font-size: 15px;
+        line-height: 300px;}
+        
+    div:hover h3 {
+        transform: translateY(10px);
+        scale: 1;}
+    
+    }

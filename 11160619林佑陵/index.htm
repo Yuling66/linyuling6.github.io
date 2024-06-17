@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realpromise</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<style>
+    
+     div  {
+        cursor: pointer;
+    }
+    picture img {
+        object-fit: cover;
+            transition: scale 0.2s; }
+    
+    picture:hover img {
+        scale: 1.2;}
+        
+    
+        
+</style>
+<body>
+<div class="wrap">
+    <header>
+        <h1>  <a href="index.htm" title="Realpromise Home">Realpromise</a></h1>
+        <nav>
+            <button class="nav-button"><img src="image/img_menu.svg" alt=""></button>
+            <ul class="nav-menu hide">
+                <li><a href="#" title="首頁">首頁</a></li>
+                <li><a href="#" title="精選商品">精選商品</a></li>
+                <li><a href="#" title="關於品牌">關於品牌</a></li>
+                <li><a href="#" title="會員專區">會員專區</a></li>
+            </ul>
+        </nav>
+
+        
+    </header>
+    <main>
+        <h1>全球61大獎認證</h1>
+        <p>WORLD-KNOWLEDGE NUTRACEUTICALS</p>
+    </main>
+    <section>
+
+        <div class="card">
+            <picture class="card__image">
+                <source media="(max-width: 727px)" srcset="image/1.jpg">
+                <source media="(min-width: 728px)" srcset="image/1p.jpg">
+                <img src="image/1.jpg" alt="樂孕綜合營養膠囊">
+            </picture>
+            <div class="card__info">
+                <h3>樂孕綜合營養膠囊</h3>
+                <p>• 純素 <br>• 規格容量 60顆<br>• 有效期限 09/2025<br>• 建議 每日2顆 飯後食用</p>
+                <h4>NT$2680</h4>     
+             </div>
+            </div>
+
+        <div class="card">
+            <picture class="card__image">
+                <source media="(max-width: 727px)" srcset="image/2.jpg">
+                <source media="(min-width: 728px)" srcset="image/2p.jpg">
+                <img src="image/2.jpg" alt="韻佳鈣膠囊">
+            </picture>
+            <div class="card__info">
+                <h3>韻佳鈣膠囊</h3>
+                <p>• 葷食 <br>• 規格容量 240顆<br>• 有效期限 08/2025<br>• 建議 早上與睡前各 2 顆</p>
+                <h4>NT$3680</h4>
+            </div>
+        </div>
+
+        <div class="card">
+            <picture class="card__image">
+                <source media="(max-width: 727px)" srcset="image/3.jpg">
+                <source media="(min-width: 728px)" srcset="image/3p.jpg">
+                <img src="image/3.jpg" alt="馨萃綜合 B 群膠囊">
+            </picture>
+            <div class="card__info">
+                <h3>馨萃綜合 B 群膠囊</h3>
+                <p>• 純素 <br>• 規格容量 120顆<br>• 有效期限 08/2025<br>• 建議 每日2顆 飯後食用</p>
+                <h4>NT$2680</h4>
+            </div>
+        </div>
+
+        <div class="card">
+            <picture class="card__image">
+                <source media="(max-width: 727px)" srcset="image/4.jpg">
+                <source media="(min-width: 728px)" srcset="image/4p.jpg">
+                <img src="image/4.jpg" alt="馨韻鐵 微膠囊">
+            </picture>
+            <div class="card__info">
+                <h3>馨韻鐵 微膠囊</h3>
+                <p>• 純素 <br>• 規格容量 120顆<br>• 有效期限 08/2025<br>• 建議 每日2顆 飯後食用</p>
+                <h4>NT$2980</h4>
+            </div>
+        </div>
+
+    </section>
+    <footer>
+        <p> © 2024 生醫科技有限公司 Real Promise Co. Ltd.</p>
+    </footer>
+</div>  
+
+
+
+<script>
+    let myNav = document.querySelector(".nav-menu"); //在 JS 裡定義下拉選單
+    let myButton = document.querySelector(".nav-button");// 在 JS 裡定義漢堡按鈕
+
+    myButton.addEventListener("click", function() { //在 myButton 上安裝事件監聽器，監聽有無被點選的動作
+    myNav.classList.toggle("hide"); //如果有被點選，就在 myNav 的 class 清單中，開關 hide 這個 class
+    });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,118 @@
+@media screen and (min-width: 728px){
+    
+
+
+header {
+    width: 900px;
+    display: flex;
+    margin: 20px auto;
+    justify-content: space-around;}   
+
+    
+header h1 {
+    text-indent: -999px;}
+    
+    
+
+header h1 a {
+    background-image: url(image/logo.svg);
+    display: block;
+    width: 190px; height: 45px;}
+    
+
+button {
+    display: none;}
+
+header ul {
+    margin: 0; padding: 10;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;}
+
+header ul a {
+    color: var(--main-color);
+    text-align: center;
+    text-decoration: none;
+    line-height: 30px;
+    display: block;
+    width: 130px; height: 30px;
+    border-radius: 10px;
+    background-color: #cbd1b8;}
+
+header ul a:hover {
+    color: var(--white-color);
+    background-color: var(--secondary-color);}
+
+main {
+    background-image: url(image/2960x.jpg);
+    width: 950px;
+    height: 480px;
+    margin: 0px auto;
+    padding-top: 130px;
+    padding-left: 50px;
+    border-radius: 10px;}
+    
+    
+
+main h1 {
+    font-size: 90px;
+    line-height: 100px;
+    width: 400px;}
+    
+
+main p {
+    font-size: 18px;
+    line-height: 100px;
+    text-indent: 10px;
+    color:rgb(79, 89, 146);
+    text-shadow: 0px 0px 2px;}
+
+section {
+    width: 900px;
+    display: flex;
+    gap: 25px;
+    margin: 10px auto;
+    margin-top: 70px;}
+    
+    
+
+.card {
+    width: 210px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(213, 190, 46, 0.2);}
+    
+
+.card__image {width: 100%;}
+    
+
+div.card__info { padding: 13px;}
+
+
+div.card__info h3 {
+    color: var(--main-color);
+    font-family: var(--main-font);
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    text-align: center;}
+    
+
+div.card__info p {
+    color: var(--third-color);
+    font-family: var(--main-font);
+    font-size: 15px;
+    font-weight: 300;}
+    
+
+footer {
+    color: var(--secondary-color);
+    font-family: var(--main-font);
+    text-align: center;
+    font-size: 13px;
+    line-height: 150px;}
+
+
+
+}
